@@ -6,20 +6,29 @@ Public repository: https://github.com/osamahabib5/ridgeline_industry_supplies_de
 
 ## How to Run
 
-From the repository root in Windows PowerShell:
+From the repository root in Git Bash on Windows:
 
-```powershell
+```bash
 py -m venv .venv
-.\.venv\Scripts\Activate.ps1
+source .venv/Scripts/activate
 python -m pip install -r requirements.txt
-if (-not (Test-Path .env)) { Copy-Item .env.example .env }
+[ -f .env ] || cp .env.example .env
 ```
 
 Set `DEEPSEEK_API_KEY` in `.env`, then run:
 
-```powershell
+```bash
 python pipeline.py
 python ris_evaluation.py
+```
+
+For Linux, WSL, or macOS, create and activate a platform-native virtual environment instead:
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+python -m pip install -r requirements.txt
+[ -f .env ] || cp .env.example .env
 ```
 
 The pipeline writes one JSON file per RFQ under `outputs/`. The evaluator processes only

@@ -25,3 +25,8 @@
 - user_prompt: "Use DeepSeekv4 pro model. The details are given in .env file for API Key. Make a .env.example file as well for the purpose. Make a production diagram, ris_flow.png of this as well. Make this okay. Make this solution: solution.em virtual environment py. Don't run the final file."
 - assistant_response_summary: "Integrated the existing pipeline with DEEPSEEK_API_KEY, DEEPSEEK_MODEL=deepseek-v4-pro and DEEPSEEK_BASE_URL loaded from .env; tightened contextual matching, active replacement validation, integer quantity parsing and LLM candidate validation; added safe .env.example, requirements, required README sections and ris_flow.png. Created .venv with py and installed dependencies. Pylance syntax/type diagnostics are clean; pipeline and evaluator were not run."
 - files_affected: "pipeline.py, README.md, .env.example, requirements.txt, ris_flow.png, .venv/, .chat-history/log.md"
+---
+- timestamp: "2026-11-16T21:23:48-05:00"
+- user_prompt: "Give me the bash commands to run this rather than the Powershell"
+- assistant_response_summary: "Changed README How to Run from PowerShell to Bash instructions for Git Bash on Windows, with a separate native venv option for Linux/WSL/macOS."
+- files_affected: "README.md, .chat-history/log.md"

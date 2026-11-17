@@ -1,0 +1,116 @@
+{
+  "threshold": 0.8,
+  "extraction_accuracy": 0.6842,
+  "match_precision": 1.0,
+  "match_recall": 0.4118,
+  "additional_metrics": {
+    "flag_accuracy": 0.7895,
+    "no_match_agreement": 0.1053,
+    "cross_reference_hit_rate": 0.5455,
+    "missed_parts": [
+      "RL171482",
+      "RL112676",
+      "RL165435",
+      "RL178907",
+      "RL125203",
+      "RL120374",
+      "RL194646",
+      "RL131850",
+      "RL185180",
+      "RL172063"
+    ],
+    "mismatched_parts": [],
+    "discrepancies": [
+      {
+        "rfq_id": "rfq_01_email",
+        "line": 1,
+        "as_written": "20 ea 6204-2RS bearings",
+        "expected_part_number": "RL171482",
+        "ridgeline_part_number": "RL171482",
+        "needs_review": true,
+        "mismatch_type": "correct_part_flagged_review"
+      },
+      {
+        "rfq_id": "rfq_01_email",
+        "line": 2,
+        "as_written": "10 A42 v-belts",
+        "expected_part_number": "RL112676",
+        "ridgeline_part_number": "RL112676",
+        "needs_review": true,
+        "mismatch_type": "correct_part_flagged_review"
+      },
+      {
+        "rfq_id": "rfq_01_email",
+        "line": 4,
+        "as_written": "1/2-13 x 2\" grade 8 hex bolts, 2 boxes",
+        "expected_part_number": "RL165435",
+        "ridgeline_part_number": "RL165435",
+        "needs_review": true,
+        "mismatch_type": "correct_part_flagged_review"
+      },
+      {
+        "rfq_id": "rfq_02_clearwater",
+        "line": 1,
+        "as_written": "APX-BB-6206ZZ",
+        "expected_part_number": "RL178907",
+        "ridgeline_part_number": null,
+        "needs_review": true,
+        "mismatch_type": "missing_part"
+      },
+      {
+        "rfq_id": "rfq_02_clearwater",
+        "line": 2,
+        "as_written": "APX-VB-B55",
+        "expected_part_number": "RL125203",
+        "ridgeline_part_number": null,
+        "needs_review": null,
+        "mismatch_type": "missing_part"
+      },
+      {
+        "rfq_id": "rfq_02_clearwater",
+        "line": 3,
+        "as_written": "APX-HF-JIC08-90",
+        "expected_part_number": "RL120374",
+        "ridgeline_part_number": null,
+        "needs_review": null,
+        "mismatch_type": "missing_part"
+      },
+      {
+        "rfq_id": "rfq_02_clearwater",
+        "line": 4,
+        "as_written": "APX-FL-HE10",
+        "expected_part_number": "RL194646",
+        "ridgeline_part_number": null,
+        "needs_review": null,
+        "mismatch_type": "missing_part"
+      },
+      {
+        "rfq_id": "rfq_02_clearwater",
+        "line": 5,
+        "as_written": "APX-GL-A4-L",
+        "expected_part_number": "RL131850",
+        "ridgeline_part_number": null,
+        "needs_review": null,
+        "mismatch_type": "missing_part"
+      },
+      {
+        "rfq_id": "rfq_02_clearwater",
+        "line": 6,
+        "as_written": "APX-BV-SS100",
+        "expected_part_number": "RL185180",
+        "ridgeline_part_number": null,
+        "needs_review": null,
+        "mismatch_type": "missing_part"
+      },
+      {
+        "rfq_id": "rfq_03_tricounty",
+        "line": 3,
+        "as_written": "same as above but 1/2\"",
+        "expected_part_number": "RL172063",
+        "ridgeline_part_number": "RL172063",
+        "needs_review": true,
+        "mismatch_type": "correct_part_flagged_review"
+      }
+    ]
+  }
+}

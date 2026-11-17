@@ -1,0 +1,24 @@
+{
+  "rfq_id": "rfq_02_clearwater",
+  "customer_id": "C1007",
+  "customer_name": "Clearwater Bottling Co.",
+  "lines": [
+    {
+      "line": 1,
+      "as_written": "Unparsed RFQ content",
+      "quantity": null,
+      "unit": null,
+      "ridgeline_part_number": null,
+      "match_method": null,
+      "confidence": 0.0,
+      "needs_review": true,
+      "flags": [
+        "parse_failed"
+      ],
+      "note": "No item lines could be extracted; review the source RFQ."
+    }
+  ],
+  "non_item_rows": [
+    "Ship to: Plant 1 receiving dock. Terms per contract. Buyer: Karen Ellis,"
+  ]
+}

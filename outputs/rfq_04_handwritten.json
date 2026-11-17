@@ -1,0 +1,22 @@
+{
+  "rfq_id": "rfq_04_handwritten",
+  "customer_id": null,
+  "customer_name": null,
+  "lines": [
+    {
+      "line": 1,
+      "as_written": "entire RFQ",
+      "quantity": null,
+      "unit": null,
+      "ridgeline_part_number": null,
+      "match_method": null,
+      "confidence": null,
+      "needs_review": true,
+      "flags": [
+        "stub"
+      ],
+      "note": "Handwritten photo RFQ requires manual data entry; not OCR'd."
+    }
+  ],
+  "non_item_rows": []
+}
